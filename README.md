@@ -6,7 +6,7 @@ Templates for the monthly challenges in the code() discord
 
 # List of Challenges
 ### Feb 2018
-> Create a program that balances brackets
+> Create a function that takes in a string and returns whether or not the brackets, braces and parentheses are balanced.
 
 Example input and output
 
