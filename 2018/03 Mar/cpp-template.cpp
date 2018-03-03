@@ -10,8 +10,8 @@ std::vector<std::string> summarizeRanges(std::vector<int> vec)
 
 int main()
 {
-	std::vector<std::vector<int>> inputs = {{1,2,3,4,5,8,9,10}, {4,5,6,7,10,11,12}, {1,3,5,6,7}};
-	std::vector<std::vector<std::string>> outputs = {{"1->5", "8->9", "10"}, {"4->7", "10->12"}, {"1", "3", "5->7"}};
+	std::vector<std::vector<int>> inputs = {{1,2,3,4,5,8,9,11}, {4,5,6,7,10,11,12}, {1,3,5,6,7}};
+	std::vector<std::vector<std::string>> outputs = {{"1->5", "8->9", "11"}, {"4->7", "10->12"}, {"1", "3", "5->7"}};
 
 	std::vector<std::vector<int>> bonusInputs = {{10,1,8,2,2,3,9,4,8}, {7,6,6,4,8,6,7,5}};
 	std::vector<std::vector<std::string>> bonusOutputs = {{"1->4", "8->10"}, {"4->8"}};
