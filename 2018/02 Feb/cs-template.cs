@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace randomcs {
+namespace MonthlyChallenge {
     class Program {
         static bool isBalanced(string str) {
             // your code
