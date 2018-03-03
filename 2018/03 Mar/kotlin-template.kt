@@ -5,27 +5,11 @@ private fun summariseRanges(ints: IntArray): Array<String> {
 }
 
 fun main(args: Array<String>) {
-    val inputs = arrayOf(
-            intArrayOf(1, 2, 3, 4, 5, 8, 9, 11),
-            intArrayOf(4, 5, 6, 7, 10, 11, 12),
-            intArrayOf(1, 3, 5, 6, 7)
-    )
-    val outputs = arrayOf(
-            arrayOf("1->5", "8->9", "11"),
-            arrayOf("4->7", "10->12"),
-            arrayOf("1", "3", "5->7")
-    )
+    val inputs = arrayOf(intArrayOf(1, 2, 3, 4, 5, 8, 9, 11), intArrayOf(4, 5, 6, 7, 10, 11, 12), intArrayOf(1, 3, 5, 6, 7))
+    val outputs = arrayOf(arrayOf("1->5", "8->9", "11"), arrayOf("4->7", "10->12"), arrayOf("1", "3", "5->7"))
 
-    val bonusInputs = arrayOf(
-            intArrayOf(1, 2, 3, 4, 5, 8, 9, 11),
-            intArrayOf(4, 5, 6, 7, 10, 11, 12),
-            intArrayOf(1, 3, 5, 6, 7)
-    )
-    val bonusOutputs = arrayOf(
-            arrayOf("1->5", "8->9", "11"),
-            arrayOf("4->7", "10->12"),
-            arrayOf("1", "3", "5->7")
-    )
+    val bonusInputs = arrayOf(intArrayOf(1, 2, 3, 4, 5, 8, 9, 11), intArrayOf(4, 5, 6, 7, 10, 11, 12), intArrayOf(1, 3, 5, 6, 7))
+    val bonusOutputs = arrayOf(arrayOf("1->5", "8->9", "11"), arrayOf("4->7", "10->12"), arrayOf("1", "3", "5->7"))
 
     for (i in 0 until inputs.size) {
         if (!Arrays.equals(summariseRanges(inputs[i]), outputs[i])) {
