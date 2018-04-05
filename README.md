@@ -5,6 +5,11 @@ Templates for the monthly challenges in the code() discord
 ## Join this github organization [here](http://bit.ly/code-discord-github)
 
 # List of Challenges
+### Apr 2018
+> [CREATIVE] Make a text adventure game with branching paths. Key feature: Players type what they want to do (see [Zork](https://en.wikipedia.org/wiki/Zork)).
+
+Submissions can be viewed [here](https://github.com/code-discord/Monthly-Challenges/blob/master/2018/04%20Apr/readme.md).
+
 ### Mar 2018
 > Create a function that summarizes the ranges of consecutive numbers for a sorted int array without duplicates.
 
